@@ -1,0 +1,14 @@
+td {
+    border: 1px solid black;
+    font-size: xx-large;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+
+h1, h2 {
+    text-align: center;
+}
