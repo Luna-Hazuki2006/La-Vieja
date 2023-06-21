@@ -25,7 +25,7 @@
 //   let colorAleatorio = generarColorAleatorio();
 //   console.log(colorAleatorio);
 function mostrar() {
-    fetch('./archivo.json').then(response => response.json())
+    fetch('archivo.json').then(response => response.json())
     .then(data => {
         console.log("hola mundo");
         console.log(data)
