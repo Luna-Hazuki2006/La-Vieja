@@ -1,3 +1,7 @@
+body {
+    background-color: color-mix(in xyz, lavender 50%, lavenderblush 50%);
+}
+
 td {
     border: 1px solid black;
     font-size: xx-large;
@@ -11,4 +15,22 @@ table {
 
 h1, h2 {
     text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    margin: 20px;
+    background-color: cornsilk;
+    font-family: monospace;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.bloqueado {
+    background-color: brown;
 }
