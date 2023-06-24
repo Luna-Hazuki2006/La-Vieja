@@ -13,9 +13,14 @@ const tiempo = ms => new Promise(res => setTimeout(res, ms));
 async function marcar(celda) {
     cambiar(celda, "⭕")
     let lista = document.getElementsByClassName("activo")
+    prueba("⭕")
     await tiempo(2000)
     let elegido = lista[Math.floor(Math.random() * lista.length)]
     cambiar(elegido, "❌")
+}
+
+function prueba(dato) {
+    
 }
 
 function cambiar(celda, marca) {
