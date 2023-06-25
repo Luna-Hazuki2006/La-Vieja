@@ -23,7 +23,7 @@ async function marcar(celda) {
     cambiar(celda, "⭕")
     let lista = document.getElementsByClassName("activo")
     if (prueba()) return
-    await tiempo(2000)
+    await tiempo(1000)
     let elegido = lista[Math.floor(Math.random() * lista.length)]
     cambiar(elegido, "❌")
     if (prueba()) return
